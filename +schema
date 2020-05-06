@@ -1,5 +1,5 @@
 {
-    "salt": "0afc7ffe-60e0-4132-89fd-bdd2dee2eda5",
+    "salt": "c02620b3-9604-4e7c-bc66-c9d0f8c84183",
     "modules": [
         {
             "name": "spring-boot-starter-webflux-2.3.0.RC1",
@@ -688,7 +688,8 @@
             "iv": "mA+qQcUAczmRDKYdDByu4w==",
             "dependencies": [
                 "core-api",
-                "radian-api"
+                "radian-api",
+                "core"
             ],
             "platforms": [
             ]
