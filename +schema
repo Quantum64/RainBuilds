@@ -1,5 +1,5 @@
 {
-    "salt": "9318e178-b78a-4d98-9f25-35fa146e0348",
+    "salt": "a7a32770-fbb3-4138-9b2f-b378674e8ecd",
     "modules": [
         {
             "name": "spring-boot-starter-data-redis-reactive-2.3.0.RC1",
