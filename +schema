@@ -1,5 +1,5 @@
 {
-    "salt": "7bc94f2d-7dee-4525-8e44-dd1f9e232075",
+    "salt": "0afc7ffe-60e0-4132-89fd-bdd2dee2eda5",
     "modules": [
         {
             "name": "spring-boot-starter-webflux-2.3.0.RC1",
@@ -102,6 +102,16 @@
             ]
         },
         {
+            "name": "jackson-module-kotlin-2.11.0",
+            "module": false,
+            "sha": "a52eadc27a1f5a1f117920c14a1dd893663d2e4c396b8e0e61576b1d972d7fe4",
+            "iv": "pS6twnofWh8ReSDBSh3Ykw==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
             "name": "kotlin-reflect-1.3.72",
             "module": false,
             "sha": "a188d9367de1c4ee9479db630985c0597b20709c83161b1430d24edb27e38c40",
@@ -126,6 +136,16 @@
             "module": false,
             "sha": "5efa9fbb54a58b1a12205a5fac565f6982abfeb0ff45bdbc318748ef5fd3a3ff",
             "iv": "Xvqfu1SlixoSIFpfrFZfaQ==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "jackson-module-afterburner-2.11.0",
+            "module": false,
+            "sha": "248ebdc384d522cbf7d5a8dbf873fb7a04d16d27f199edebf04f3851a0050304",
+            "iv": "JI69w4TVIsv31ajb+HP7eg==",
             "dependencies": [
             ],
             "platforms": [
@@ -342,6 +362,66 @@
             ]
         },
         {
+            "name": "jackson-datatype-jdk8-2.11.0",
+            "module": false,
+            "sha": "73af8b41733671f1693c9f554c64816d587798a95b22b7e5fab1096f9dcdf269",
+            "iv": "c6+LQXM2cfFpPJ9VTGSBbQ==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "jackson-datatype-jsr310-2.11.0",
+            "module": false,
+            "sha": "6805f305f8af285966ffc401c03aaf4ccad84302a1d42b1b2c8b015c4cee5e16",
+            "iv": "aAXzBfivKFlm/8QBwDqvTA==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "jackson-module-parameter-names-2.11.0",
+            "module": false,
+            "sha": "b83c950878a29340a4b63d034f27d43c96473002ccf8978b3b04941814647d70",
+            "iv": "uDyVCHiik0Cktj0DTyfUPA==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "jackson-databind-2.11.0",
+            "module": false,
+            "sha": "54e72b9fa38fc37986ae7f6fc30ef704eec8010206bcd4d63546dccbbb47f4d1",
+            "iv": "VOcrn6OPw3mGrn9vww73BA==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "jackson-annotations-2.11.0",
+            "module": false,
+            "sha": "b3b1fca6cb6469d4ea06635d964aaea91f86cc22fe42a9757c8a315148589e8e",
+            "iv": "s7H8pstkadTqBmNdlkquqQ==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "jackson-core-2.11.0",
+            "module": false,
+            "sha": "b504d81351fb088f1e1bbef6a701faa88d2cfc4350483aeaa19384c39a8133fd",
+            "iv": "tQTYE1H7CI8eG772pwH6qA==",
+            "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
             "name": "kotlin-stdlib-common-1.3.72",
             "module": false,
             "sha": "5e7d1552863e480c1628b1cc39ce230ef829f5b7230106215a05acda5172203a",
@@ -436,66 +516,6 @@
             "module": false,
             "sha": "e5bf47fd025ddadfb78030f871001a8f83535247eb2ad72a38366e960bfc6f55",
             "iv": "5b9H/QJd2t+3gDD4cQAajw==",
-            "dependencies": [
-            ],
-            "platforms": [
-            ]
-        },
-        {
-            "name": "jackson-datatype-jdk8-2.11.0",
-            "module": false,
-            "sha": "73af8b41733671f1693c9f554c64816d587798a95b22b7e5fab1096f9dcdf269",
-            "iv": "c6+LQXM2cfFpPJ9VTGSBbQ==",
-            "dependencies": [
-            ],
-            "platforms": [
-            ]
-        },
-        {
-            "name": "jackson-datatype-jsr310-2.11.0",
-            "module": false,
-            "sha": "6805f305f8af285966ffc401c03aaf4ccad84302a1d42b1b2c8b015c4cee5e16",
-            "iv": "aAXzBfivKFlm/8QBwDqvTA==",
-            "dependencies": [
-            ],
-            "platforms": [
-            ]
-        },
-        {
-            "name": "jackson-module-parameter-names-2.11.0",
-            "module": false,
-            "sha": "b83c950878a29340a4b63d034f27d43c96473002ccf8978b3b04941814647d70",
-            "iv": "uDyVCHiik0Cktj0DTyfUPA==",
-            "dependencies": [
-            ],
-            "platforms": [
-            ]
-        },
-        {
-            "name": "jackson-databind-2.11.0",
-            "module": false,
-            "sha": "54e72b9fa38fc37986ae7f6fc30ef704eec8010206bcd4d63546dccbbb47f4d1",
-            "iv": "VOcrn6OPw3mGrn9vww73BA==",
-            "dependencies": [
-            ],
-            "platforms": [
-            ]
-        },
-        {
-            "name": "jackson-annotations-2.11.0",
-            "module": false,
-            "sha": "b3b1fca6cb6469d4ea06635d964aaea91f86cc22fe42a9757c8a315148589e8e",
-            "iv": "s7H8pstkadTqBmNdlkquqQ==",
-            "dependencies": [
-            ],
-            "platforms": [
-            ]
-        },
-        {
-            "name": "jackson-core-2.11.0",
-            "module": false,
-            "sha": "b504d81351fb088f1e1bbef6a701faa88d2cfc4350483aeaa19384c39a8133fd",
-            "iv": "tQTYE1H7CI8eG772pwH6qA==",
             "dependencies": [
             ],
             "platforms": [
@@ -654,9 +674,21 @@
         {
             "name": "rain-core-0.0.1-SNAPSHOT",
             "module": true,
-            "sha": "4d8210911f055582b0bc458bfda079977067c7a8c1e4d1e42a32fe7a31406738",
-            "iv": "TYIQkR8FVYKwvEWL/aB5lw==",
+            "sha": "21434998915a70c25ff9753a8ae9b952acc29f7efda5bbd295e9dcc57fe6bb56",
+            "iv": "IUNJmJFacMJf+XU6ium5Ug==",
             "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "rain-radian-0.0.1-SNAPSHOT",
+            "module": true,
+            "sha": "980faa41c5007339910ca61d0c1caee347f98b23f2ce9fabcff078c62d01890f",
+            "iv": "mA+qQcUAczmRDKYdDByu4w==",
+            "dependencies": [
+                "core-api",
+                "radian-api"
             ],
             "platforms": [
             ]
@@ -664,9 +696,20 @@
         {
             "name": "rain-core-api-0.0.1-SNAPSHOT",
             "module": true,
-            "sha": "17d93d8c222a14ff735224c991ebba022467512ee4a9da219a2355498fd5a041",
-            "iv": "F9k9jCIqFP9zUiTJkeu6Ag==",
+            "sha": "1acf107dfc5de289bb2902899af7506685adc9c756864b5793d1ff7301bf3737",
+            "iv": "Gs8Qffxd4om7KQKJmvdQZg==",
             "dependencies": [
+            ],
+            "platforms": [
+            ]
+        },
+        {
+            "name": "rain-radian-api-0.0.1-SNAPSHOT",
+            "module": true,
+            "sha": "980faa41c5007339910ca61d0c1caee347f98b23f2ce9fabcff078c62d01890f",
+            "iv": "mA+qQcUAczmRDKYdDByu4w==",
+            "dependencies": [
+                "core-api"
             ],
             "platforms": [
             ]
